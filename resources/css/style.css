@@ -143,16 +143,21 @@ p{
 
 .btn-proj:hover,
 .btn-proj:active{
-     width:30%;
+    width:30%;
     font-size: 15px;
     margin-left: 5px;
     margin-right: 5px;
     display: inline-block;
     padding: 10px 30px;
     font-weight: 400;
-    color:#c9c9c9 ;
+    color:#9d9d9d ;
     border: 2px solid;
     text-decoration: none;
+}
+
+.carousel-indicators{
+    padding-bottom: 8%;
+    
 }
 
 /*-------Contact-------*/
@@ -216,12 +221,19 @@ p{
 
 /*-------Map-----------*/
 
-.map{    
+.map{ 
+
 }
 .bg{
     width:100%;
     
 }
+
+/*------Legal---------*/
+
+
+
+
 
 
 /* DEMO-SPECIFIC STYLES */

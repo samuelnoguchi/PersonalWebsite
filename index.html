@@ -17,7 +17,8 @@
    
     </head>
     <body>
-        <nav class= "navbar navbar-inverse">
+        <nav class= "navbar navbar-inverse navbar-fixed-top" id="mNavbar">
+            
             <div class = "container-fluid">
                 <!--Logo-->
                 <div class = "navbar-header">
@@ -32,10 +33,10 @@
                 <!--Menu Items-->
                 <div class="collapse navbar-collapse" id="mainNavBar">
                     <ul class = "nav navbar-nav navbar-right">
-                        <li class ="active"><a href = "#">Home</a></li>
-                        <li><a href = "#">About</a></li> 
-                        <li><a href = "#">Projects</a></li>
-                        <li><a href = "#">Contact</a></li>
+                        <li ><a href = "#">Home</a></li>
+                        <li><a href = "#about">About</a></li> 
+                        <li><a href = "#projects">Projects</a></li>
+                        <li><a href = "#contact">Contact</a></li>
                     </ul>
                 </div>
             
@@ -44,20 +45,24 @@
         
         <div class = "home">
             
-             <div class = "home-text">
+                <div class = "row"></div>
+                <div class = "home-text">
                 <div class = "typewriter">
                     <h1>MECHATRONICS ENGINEERING</h1>
                 </div> 
                 <div class="btn-box">
-                    <a class = "btn" href ="#">About</a>
-                    <a class = "btn" href ="#">Contact</a>
-                 </div>
-                
-                 
-                 
-                 
+                    <a class = "btn" href ="#about">About</a>
+                    <a class = "btn" href ="#contact">Contact</a>
+                 </div>   
             </div>
+            
+            
+          
+            
+            
         </div>
+        <a id = "about"></a>
+        
         <div class = "about">
            <div class = "about-info">
                 <div class = "container-fluid about-section">
@@ -92,6 +97,7 @@
                 </div>              
             </div>
         </div>
+        
         <div class= "projects">
            
             <div class = "slideshow">
@@ -105,11 +111,12 @@
                         <li data-target="#myCarousel" data-slide-to="1"></li>
                         <li data-target="#myCarousel" data-slide-to="2"></li>
                     </ol>
-
+                     <a id = "projects"></a>
               <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
                             <img src="resources/images/MFR_progress_bw.jpeg" alt="">
+                            
                             <div class="carousel-caption">
                                 <a class = "btn-proj" href ="#">Guitar Playing Robot</a>
 
@@ -135,10 +142,11 @@
             </div>
             
         </div>
+         <a id = "contact"></a>
         <div class= "contact">
             <div class ="container-fluid contact-section">
                 <div class ="row">
-                    <div class="col-md-6 contact-info" >
+                    <div class="col-md-6 contact-info" > 
                         <h2>Contact Information</h2>
                         
                     
@@ -148,7 +156,8 @@
                         647-686-7280 <br>    
                         <a href="mailto:Samuel.noguchi@uwaterloo.ca" class ="email">
                         Samuel.noguchi@uwaterloo.ca</a> <br>
-                        <a href = "https://github.com/samuelnoguchi" class="email">https://github.com/samuelnoguchi</a>
+                        <a href = "https://github.com/samuelnoguchi" class="email">https://github.com/samuelnoguchi</a><br><br>
+                        <a href = "#" class="email">Resume</a><br>    
                         
                         
                         </p>
@@ -183,7 +192,7 @@
             <img class ="bg" src ="resources/css/img/map.jpg">
         
         </div>
-        
+      
           
         
     </body>
