@@ -14,6 +14,13 @@ h2{
     color:#838383;
 }
 
+p{
+    font-size: 20px;
+    margin-top: 10%;
+    font-weight: 300;
+}
+
+
 .navbar{
     margin-bottom: 0;
     background-color: rgb(0, 0, 0);
@@ -70,20 +77,20 @@ h2{
 
 .about{
     background-color: black;
-    background-size: cover;
-    height: 100;
+      
 }
 
 .about-info{
    padding: 5%;
-    
+   
 }
 .about-section{
-    background-image: url(img/Black_background_crop.jpg);
+    background-image: url(img/Black_background.jpg);
+    background-attachment: fixed;
     background-size:cover;
 }
 
-.img-responsive{
+.img-me{
     margin-top: 10%;
     width: 100%;
     float:right;
@@ -113,6 +120,109 @@ h2{
     margin-top: 6%;
     
 }
+
+/*------------Projects---*/
+
+.carousel-caption{
+    top: 50%;
+    
+}
+
+.btn-proj:link,
+.btn-proj:visited{
+    width:30%;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 400;
+    color:#c9c9c9 ;
+    border: 2px solid;
+}
+
+.btn-proj:hover,
+.btn-proj:active{
+     width:30%;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 400;
+    color:#c9c9c9 ;
+    border: 2px solid;
+    text-decoration: none;
+}
+
+/*-------Contact-------*/
+
+.contact-section{
+    padding: 5%;
+    background-color: black;
+}
+
+.contact-info{
+    color:#c9c9c9;
+    font-weight: 300;
+    
+}
+
+.email:link,
+.email:visited{
+     color:#c9c9c9; 
+    font-size:20px;
+    border-bottom: 1px solid;
+   
+    
+}
+.email:hover,
+.email:active {
+    color:#898989; 
+    font-size:20px;
+    text-decoration: none;
+    
+}
+
+.box-container{
+    margin-top: 5%;
+    
+    
+}
+
+.form-group{
+    font-family: 'Lato';
+    font-weight: 400;
+}
+
+.btn-default:link,
+.btn{
+    background-color: black;
+    color:#c9c9c9;
+    font-family: 'Lato';
+}
+.btn-default:hover{
+    background-color: black;
+}
+
+.label{
+    font-family: 'Lato';
+    font-weight: 300;
+    float:left; 
+    padding: 0;
+    font-size: 20px;
+    color:#c9c9c9;
+}
+
+/*-------Map-----------*/
+
+.map{    
+}
+.bg{
+    width:100%;
+    
+}
+
 
 /* DEMO-SPECIFIC STYLES */
 .typewriter h1 {
