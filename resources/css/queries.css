@@ -1,0 +1,115 @@
+
+/*Small tablets to big tablets*/
+@media only screen and (max-width: 1140px) {
+
+    .img-me{
+        position: absolute;
+        
+    }
+    
+    
+}
+
+@media only screen and (max-width: 990px) {
+
+    .img-me{
+        display: none;
+    }
+    
+    
+}
+
+
+/*Small phones to small tablets*/
+@media only screen and (max-width: 840px) {
+    
+    .carousel-caption {
+        top:25%;
+        
+    }
+    
+    
+    
+}
+
+
+/*Small phones less than 480px*/
+@media only screen and (max-width: 760px) {
+    
+    .home-text{
+        width: 50%;
+        text-align: center;
+        float: none;
+    }
+    
+    .typewriter h1 {
+        overflow: visible;
+        font-size: 30px;
+        white-space: normal; /* Keeps the content on a single line */
+        border-right: .05em  rgba(255, 255, 255, 0);
+        animation: 
+        typing 0 steps(30, end),
+        blink-caret .5s step-end ;
+    }
+    
+    .btn:link,
+    .btn:visited {
+        width:30%;
+        font-size: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: none;
+        padding: 10px 30px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0);
+        border: 2px solid;
+    }
+
+    .btn:hover,
+    .btn:active {
+        color:rgba(255, 255, 255, 0);
+
+    }
+    
+
+    
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    
+    .carousel-caption {
+        top: 0;
+    }
+    
+    .btn-proj:link,
+    .btn-proj:visited{
+        width: 100%;
+        border: 0 solid;
+    }
+
+    .btn-proj:hover,
+    .btn-proj:active{
+        width:100%;
+        color:#c9c9c9 ;
+        border: 0 solid;
+    }
+    
+    .typewriter h1 {
+       
+        font-size: 20px;
+       
+    }
+    
+}
+
+
+@media only screen and (max-width: 390px) {
+
+    .about-text h1{
+        font-size: 30px;
+    }
+    
+    
+}

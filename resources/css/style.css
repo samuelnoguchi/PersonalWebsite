@@ -73,6 +73,7 @@ p{
     
 }
 
+
 /*-------About-------------*/
 
 .about{
@@ -100,6 +101,7 @@ p{
 .about-text{
     color:#cbcbcb;
     font-size: 20px;
+    padding: 3%;
    
 }
 
