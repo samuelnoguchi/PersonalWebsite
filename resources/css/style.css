@@ -30,12 +30,13 @@ p{
 /*---------Home------------*/
 .home{
     background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url(img/Pulley_close_up_2.jpg);
+   
     background-size:cover;
     background-attachment: fixed;
     background-position: center;
-    margin-top: 4%;
+    margin-top: ;
    
-    height: 85vh;
+    height: 95vh;
 }
 
 .home-text{
@@ -78,6 +79,7 @@ p{
 
 .about{
     background-color: black;
+    height: 100vh;
       
 }
 
