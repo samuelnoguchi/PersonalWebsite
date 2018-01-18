@@ -224,6 +224,21 @@ p{
     color:#c9c9c9;
 }
 
+.form-messages {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    
+     
+}
+
+.success {  
+}
+
+
+
+
 /*-------Map-----------*/
 
 .map{ 
