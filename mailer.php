@@ -7,7 +7,7 @@
     $message = trim($_POST["message"]);
 
     // Check the data.
-    if (empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    if (empty($name) /*OR empty($message)*/ OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
         header("Location: http://www.eng.uwaterloo.ca/~srnoguch/index.php?success=-1#form");
         exit;
     }

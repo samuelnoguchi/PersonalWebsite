@@ -95,19 +95,19 @@
                         <div class="item active">
                             <img src="resources/images/MFR_progress_bw.jpeg" alt="">
                             <div class="carousel-caption">
-                                <a class = "btn-proj" href ="#">Guitar Playing Robot</a>
+                                <a class = "btn-proj" href ="#projects">Guitar Playing Robot</a>
                             </div>
                         </div>
                         <div class="item">
                             <img src="resources/images/Tron_days_proto.jpeg" alt="">
                             <div class="carousel-caption">
-                                <a class = "btn-proj" href ="#">Tele-Operated Arm</a>
+                                <a class = "btn-proj" href ="#projects">Tele-Operated Arm</a>
                             </div>    
                         </div>
                         <div class="item">
                             <img src="resources/images/Headstock_drilling%20(1).jpg" alt="">
                             <div class="carousel-caption">
-                                <a class = "btn-proj" href ="#">Electric Guitar Build</a>
+                                <a class = "btn-proj" href ="#projects">Electric Guitar Build</a>
                             </div>    
                         </div>
                     </div>
@@ -152,8 +152,8 @@
                                     <input type="email" name="email" class="form-control" id="email">
                                 </div>
                                 <div class="form-group">
-                                    <label for="comment" name = "message" class ="label">Comment:</label>
-                                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                                    <label for="comment" class ="label">Comment:</label>
+                                    <textarea class="form-control"  name = "message" rows="5" id="comment"></textarea>
                                 </div>
                                 <button type="submit" class="btn btn-default">Submit</button>
                             </form>
